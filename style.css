@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
+.square{
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    outline: solid 1px black;
+    transition: background-color 0.1s ease;
+}
+#container{
+    display:flex;
+    flex-wrap:wrap;
+    background-color: blue;
+    border: solid 3px black;
+}
